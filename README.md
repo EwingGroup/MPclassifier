@@ -149,3 +149,5 @@ Although this class starts empty, depending on the developed classifier, after t
 ## Authors
 
 **Eric Latorre Crespo** - *Initial work*
+
+Created as part of XDF rotation project with Ailith Ewing, Arno Onken and Colin Semple. 
