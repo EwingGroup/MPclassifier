@@ -21,7 +21,7 @@ def load_names(mut_class):
     sample_names = glob.glob(mut_class.vcf + "/*.vcf")
     sample_names = [sample.split('/')[-1] for sample in sample_names]
     sample_names = [sample.split('.')[0] for sample in sample_names]
-
+    sample_names = [sample.split('-')[0] for sample in sample_names]
     return sample_names
 
 
